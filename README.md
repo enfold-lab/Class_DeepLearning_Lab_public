@@ -1,4 +1,4 @@
-# 머신러닝1 수업 실습자료
+# 딥러닝응용 수업 실습자료
 
 ## 실습 준비
 
@@ -6,26 +6,25 @@
     - If cloning for the first time:
     ```bash
     cd ~/
-    git clone https://github.com/Integrative-Data-Comprehension-Lab/Class_ML_Lab_public.git
+    git clone https://github.com/enfold-lab/Class_DeepLearning_Lab_public.git
     ```
     - If you already cloned before:
     ```bash
-    cd ~/Class_ML_Lab_public
+    cd ~/Class_DeepLearning_Lab_public
     git pull
     ```
 
 2. cloning your private repository
 ```bash
 cd ~/
-git clone https://YOUR_USERNAME:YOUR_TOKEN@github.com/\
-YOUR_USERNAME/YOUR_PRIVATE_REPOSITORY_NAME.git
+git clone https://YOUR_USERNAME:YOUR_TOKEN@github.com/YOUR_USERNAME/YOUR_PRIVATE_REPOSITORY_NAME.git
 ```
 
 3. 실습 자료를 개인 레포지토리로 가져오기
 ```bash
 cd ~/
-cp Class_ML_Lab_public/README.md YOUR_PRIVATE_REPOSITORY_NAME/
-cp -r Class_ML_Lab_public/lab_XX YOUR_PRIVATE_REPOSITORY_NAME/
+cp Class_DeepLearning_Lab_public/README.md YOUR_PRIVATE_REPOSITORY_NAME/
+cp -r Class_DeepLearning_Lab_public/lab_XX YOUR_PRIVATE_REPOSITORY_NAME/
 ```
 
 4. 실습 진행 전 상태를 푸쉬하기
@@ -38,6 +37,8 @@ git status
 
 git commit -m "before lab_XX"
 git push
+
+git log --oneline
 ```
 
 ## 과제 제출 방법
